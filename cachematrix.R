@@ -1,5 +1,5 @@
 ## Z.Xu 2015.11.20
-## Version 0.1
+## Version 0.2
 ## To create a special object that save a matrix and caches the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Z.Xu 2015.11.20
-## Version 0.1
+## Version 0.2
 ## To retrieve the inverse from the cache if alraedy inversed
 
 cacheSolve <- function(x, ...) {
